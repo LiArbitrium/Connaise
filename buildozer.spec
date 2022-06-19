@@ -36,7 +36,7 @@ version = 0.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.1.0,kivymd==0.104.2,https://github.com/kivymd/KivyMD/archive/master.zip,sdl2_ttf==2.0.15
+requirements = python3,kivy==2.1.0,kivymd,https://github.com/kivymd/KivyMD/archive/master.zip,sdl2_ttf==2.0.15
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -65,7 +65,7 @@ orientation = all
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.0.0
+osx.kivy_version = 2.1.0
 
 #
 # Android specific
@@ -184,7 +184,7 @@ fullscreen = 0
 
 # (str) OUYA Console category. Should be one of GAME or APP
 # If you leave this blank, OUYA support will not be enabled
-#android.ouya.category = GAME
+#android.ouya.category = APP
 
 # (str) Filename of OUYA Console icon. It must be a 732x412 png image.
 #android.ouya.icon.filename = %(source.dir)s/data/ouya_icon.png
