@@ -9,7 +9,7 @@ package.name = mortgagecalculator
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
 
-# (str) Source code where the main.py live
+# (str) Source code where the Kalk1.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
@@ -32,7 +32,7 @@ version = 2.3
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
-# version.filename = %(source.dir)s/main.py
+# version.filename = %(source.dir)s/Kalk1.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
