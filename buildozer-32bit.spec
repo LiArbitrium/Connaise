@@ -9,7 +9,7 @@ package.name = mortgagecalculator
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
 
-# (str) Source code where the Kalk1.py live
+# (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
@@ -32,11 +32,11 @@ version = 2.3
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
-# version.filename = %(source.dir)s/Kalk1.py
+# version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0,kivymd,https://github.com/kivymd/KivyMD/archive/3274d62.zip,sdl2_ttf==2.0.15
+requirements = python3,kivy==2.1.0,kivymd,https://github.com/kivymd/KivyMD/archive/3274d62.zip,sdl2_ttf==2.0.15
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -65,7 +65,7 @@ orientation = all
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.0.0
+osx.kivy_version = 2.1.0
 
 #
 # Android specific
@@ -94,19 +94,19 @@ fullscreen = 0
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 29
+#android.api = 27
 
 # (int) Minimum API your APK will support.
-#android.minapi = 26
+#android.minapi = 21
 
 # (int) Android SDK version to use
-#android.sdk = 26
+#android.sdk = 20
 
 # (str) Android NDK version to use
-#android.ndk = 17c
+#android.ndk = 19b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
-#android.ndk_api = 26
+#android.ndk_api = 21
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
